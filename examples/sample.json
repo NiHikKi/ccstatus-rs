@@ -1,0 +1,48 @@
+{
+  "session_id": "sample-session",
+  "session_name": "ccstatus demo",
+  "version": "2.1.260",
+  "model": { "id": "claude-fable-5-1", "display_name": "Fable" },
+  "workspace": { "project_dir": "/Users/nihikki/projects/personal/ccstatus", "added_dirs": [] },
+  "cost": {
+    "total_cost_usd": 1.2345,
+    "total_duration_ms": 5025000,
+    "total_api_duration_ms": 1800000,
+    "total_lines_added": 120,
+    "total_lines_removed": 14
+  },
+  "context_window": {
+    "total_input_tokens": 118000,
+    "total_output_tokens": 9200,
+    "context_window_size": 1000000,
+    "used_percentage": 12.7,
+    "remaining_percentage": 87.3,
+    "current_usage": {
+      "input_tokens": 1800,
+      "output_tokens": 640,
+      "cache_creation_input_tokens": 2100,
+      "cache_read_input_tokens": 114000
+    }
+  },
+  "exceeds_200k_tokens": false,
+  "fast_mode": false,
+  "effort": { "level": "xhigh" },
+  "thinking": { "enabled": true },
+  "rate_limits": {
+    "five_hour": { "used_percentage": 37, "resets_at": 0 },
+    "seven_day": { "used_percentage": 61, "resets_at": 0 }
+  },
+  "prompt_cache": {
+    "warm": true,
+    "caching_observed": true,
+    "ttl": "1h",
+    "expires_at": 0,
+    "requests": 42,
+    "misses": 1,
+    "expected_rebuilds": 0,
+    "hit_ratio": 0.93,
+    "cache_write_tokens": 25000
+  },
+  "output_style": { "name": "default" },
+  "vim": { "mode": "INSERT" }
+}
