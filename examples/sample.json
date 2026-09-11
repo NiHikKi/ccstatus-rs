@@ -3,7 +3,7 @@
   "session_name": "ccstatus demo",
   "version": "2.1.260",
   "model": { "id": "claude-fable-5-1", "display_name": "Fable" },
-  "workspace": { "project_dir": "/Users/nihikki/projects/personal/ccstatus", "added_dirs": [] },
+  "workspace": { "project_dir": "/home/dev/projects/demo", "added_dirs": [] },
   "cost": {
     "total_cost_usd": 1.2345,
     "total_duration_ms": 5025000,
